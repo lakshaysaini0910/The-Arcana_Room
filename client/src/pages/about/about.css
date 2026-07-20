@@ -1,0 +1,83 @@
+.aboutPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.aboutS1,
+.aboutS2,
+.aboutS3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(196, 170, 220);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutH,
+.aboutS2H,
+.aboutS3H {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.aboutS1 p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.aboutS2Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.aboutS2SubH {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.aboutS2Content p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.aboutS3Content {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.aboutS3Points {
+    width: 90%;
+    padding-left: 20px;
+}
+
+.aboutS3Points li {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}

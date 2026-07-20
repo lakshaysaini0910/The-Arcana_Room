@@ -1,0 +1,36 @@
+.chooseDeckS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(196, 170, 220);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.chooseHeading {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0 10px 0;
+}
+
+.chooseD,
+.chooseR {
+    padding: 10px 20px;
+    width: 40%;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+.nextBtn {
+    padding: 10px 20px;
+    width: 50%;
+    border-radius: 15px;
+    margin: 10px;
+    background-image: linear-gradient(to right, rgb(74, 29, 74), rgb(33, 33, 74));
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}

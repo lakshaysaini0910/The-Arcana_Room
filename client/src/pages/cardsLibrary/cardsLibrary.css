@@ -1,0 +1,58 @@
+.deckSelection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(196, 170, 220);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.libraryH {
+    font-size: 45px;
+    padding: 20px;
+}
+
+.rider-waiteSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.deckH {
+    font-size: 20px;
+
+}
+
+.arrowBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cardsImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 20px;
+
+}
+
+.cardTag{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    align-items: center;
+}
+
+.cardsImage img {
+    width: 140px;
+    height: auto;
+}

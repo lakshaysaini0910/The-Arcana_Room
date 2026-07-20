@@ -1,0 +1,170 @@
+.readingSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(196, 170, 220);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.readingH {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0 30px 0;
+}
+
+.chooseCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.readingDeckH {
+    width: 50%;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.coverImage {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.coverImage img {
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.shuffleBtn {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 15px;
+    background-color: #4b2e83;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.25s ease;
+}
+
+.shuffleBtn:hover {
+    background-color: #633aa8;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+}
+
+.shuffleBtn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+.pickedCardH {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.pickingCards {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(196, 170, 220);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.pickedcard {
+    background-color: rgb(132, 96, 166);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 10px;
+    min-height: 50px;
+    padding: 20px;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.pickedcard img {
+    width: 30%;
+    border-radius: 7px;
+}
+
+.clearBtn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #d94a4a, #b32020);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.25s ease;
+}
+
+.clearBtn:hover {
+    background: linear-gradient(135deg, #f04d4d, #d11f1f);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 500px) {
+    .readingH {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .chooseCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .readingDeckH {
+        width: auto;
+        font-size: 10px;
+        /* font-weight: bold; */
+        padding-bottom: 5px;
+    }
+
+    .shuffleBtn {
+        font-size: 10px;
+        margin: 5px 0;
+        font-weight: 100;
+        /* width: max-content; */
+    }
+
+    .pickedCardH {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .shuffleGuide {
+        font-size: 10px;
+    }
+
+}

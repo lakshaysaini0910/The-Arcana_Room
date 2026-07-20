@@ -1,0 +1,63 @@
+.Footer {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fLinksColumn{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    
+}
+
+.nItems{
+    font-size: 22px;
+}
+
+
+.fLogo{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.navItems,
+.fConnect{
+    align-items: center;
+    
+    
+}
+
+.navItems ul,
+.fConnect ul {
+    list-style: none;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.navItems ul li,
+.fConnect ul li {
+    padding-top: 5px;
+}
+
+.ftext{
+    letter-spacing: 2px;    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 500px) {
+    .fLinksColumn{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
